@@ -78,7 +78,6 @@ nav a:hover {
   border: none;
   cursor: pointer;
   padding: 8px;
-  z-index: 1001;
 }
 
 .hamburger span {
