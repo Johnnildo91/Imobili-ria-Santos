@@ -14,13 +14,20 @@
             <img src="imagens\logo.png" alt="logo imobiliária santos" />
           </div>
         </div>
-        <nav>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav id="nav">
+          <button class="close-menu" id="closeMenu" aria-label="Fechar menu">&times;</button>
           <a href="#sobre">Sobre</a>
           <a href="#servicos">Serviços</a>
           <a href="#corretores">Corretores</a>
           <a href="#contato">Contato</a>
         </nav>
       </div>
+      <div class="overlay" id="overlay"></div>
     </header>
 
     <main>
@@ -76,5 +83,6 @@
         </div>
       </section>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
